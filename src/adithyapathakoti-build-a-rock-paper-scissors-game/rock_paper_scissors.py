@@ -1,22 +1,22 @@
 import random
 
 def get_user_choice():
-    print("\nChoose your move:")
-    print("1. Rock")
-    print("2. Paper")
-    print("3. Scissors")
-    choice = input("Enter 1/2/3: ")
+    while True:
+        print("\nChoose your move:")
+        print("1. Rock")
+        print("2. Paper")
+        print("3. Scissors")
+        choice = input("Enter 1/2/3: ")
 
-    if choice == "1":
-        return "Rock"
-    elif choice == "2":
-        return "Paper"
-    elif choice == "3":
-        return "Scissors"
-    else:
-        print("❌ Invalid choice! Please try again.")
-        return get_user_choice()
-
+        if choice == "1":
+            return "Rock"
+        elif choice == "2":
+            return "Paper"
+        elif choice == "3":
+            return "Scissors"
+        else:
+            print("❌ Invalid choice! Please try again.")
+            
 def get_computer_choice():
     return random.choice(["Rock", "Paper", "Scissors"])
 
