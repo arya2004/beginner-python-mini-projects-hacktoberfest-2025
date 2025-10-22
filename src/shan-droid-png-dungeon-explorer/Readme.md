@@ -17,7 +17,7 @@ A text-based adventure game written in Python where you explore a dangerous dung
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/dungeon-explorer.git
+git clone https://github.com/shan-droid-png/beginner-python-mini-projects-hacktoberfest-2025/src/shan-droid-png-dungeon-explorer.git
 cd dungeon-explorer
 ```
 
@@ -119,3 +119,4 @@ Created with ❤️ for dungeon crawling enthusiasts!
 ---
 
 **Enjoy your adventure, and may the RNG be in your favor!** 🎲✨
+
