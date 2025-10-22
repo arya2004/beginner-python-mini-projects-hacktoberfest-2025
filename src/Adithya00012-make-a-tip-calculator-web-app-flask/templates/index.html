@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Tip Calculator</h1>
+    {% if error_message %}
+      <p class="error">{{ error_message }}</p>
+    {% endif %}
+    <form method="POST">
+      <label>Bill Amount ($)</label>
+      <input type="text" name="bill" required value="{{ request.form.bill or '' }}">
+
+      <label>Tip Percentage (%)</label>
+      <input type="text" name="tip" required value="{{ request.form.tip or '' }}">
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    {% if total_amount > 0 %}
+    <div class="results">
+      <h2>Results</h2>
+      <p>Total Tip: ${{ total_tip }}</p>
+      <p>Total Amount: ${{ total_amount }}</p>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
