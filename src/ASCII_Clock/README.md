@@ -10,7 +10,9 @@ Features:
 4) Graceful exit message when stopped
 5) Cross-platform (works on Windows, macOS, Linux)
 
-Screenshot:<img width="531" height="125" alt="ascii_terminal" src="https://github.com/user-attachments/assets/45821688-175a-488d-a68e-8d85fcd6b917" />
+Screenshot:
+
+<img width="531" height="125" alt="ascii_terminal" src="https://github.com/user-attachments/assets/45821688-175a-488d-a68e-8d85fcd6b917" />
 
 
 
