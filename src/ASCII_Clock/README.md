@@ -10,12 +10,9 @@ Features:
 4) Graceful exit message when stopped
 5) Cross-platform (works on Windows, macOS, Linux)
 
-Screenshot:
- 000    222           222   55555          000    000
-0   0  2   2    :    2   2  5        :    0   0  0   0
-0   0     2             2   5555          0   0  0   0
-0   0    2      :      2        5    :    0   0  0   0
- 000   22222         22222  5555           000    000
+Screenshot:<img width="531" height="125" alt="ascii_terminal" src="https://github.com/user-attachments/assets/45821688-175a-488d-a68e-8d85fcd6b917" />
+
+
 
 Installation:
 No external libraries required. Make sure you have Python 3.x installed.
