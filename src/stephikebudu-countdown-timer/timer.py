@@ -1,10 +1,12 @@
 import time, math, sys
+from playsound import playsound
 
 def timer():
   given_time = input("How many minute(s) countdown do you want? ") # get minnute value from user
   response = "" # init response
+  is_valid_input = type(int(given_time))
 
-  if type(given_time) is int and 1 <= int(given_time) <= 60: # validate input
+  if is_valid_input is not  ValueError and 1 <= int(given_time) <= 60: # validate input
     given_time_in_sec = int(given_time) * 60 # turn minute value to seconds
 
     while given_time_in_sec > 0:
@@ -19,6 +21,10 @@ def timer():
       response = "Time up!" # update response
   else:
     response  = "Please eter a valid integer representinng minute value between 1 and 60 (both inclusive)" # update response in case of wrong value
+
+  if response == "Time up!":
+    playsound("../timer-beep.mp3", block=False) # alert user with sound
+    time.sleep(3) # wait for ringer to sound
 
   return response # display responnse
 
