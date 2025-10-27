@@ -1,0 +1,2 @@
+# No external libraries required
+# Only uses Python's built-in 'random' module
