@@ -33,4 +33,12 @@ Ensure you have **Python 3.x** installed, along with **Pygame**:
 
 ```bash
 pip install -r requirements.txt
+```
 
+### How to run?
+- To open this combat simulator, simply type these commands in the command line
+
+```bash
+cd regenpalkar28-combat-simulator
+Combat.py
+```
