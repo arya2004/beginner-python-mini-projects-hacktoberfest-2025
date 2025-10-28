@@ -1,0 +1,34 @@
+import requests
+from bs4 import BeautifulSoup
+import csv
+
+def scrape_hackernews_headlines():
+    URL = "https://news.ycombinator.com/"
+    try:
+        response = requests.get(URL)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Error fetching page: {e}")
+        return []
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    headlines = [title.text for title in soup.select(".storylink")]
+    return headlines
+
+def save_to_csv(headlines, filename="headlines.csv"):
+    with open(filename, "w", newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(["Headline"])
+        for headline in headlines:
+            writer.writerow([headline])
+
+if __name__ == "__main__":
+    headlines = scrape_hackernews_headlines()
+    if headlines:
+        print("Top News Headlines:")
+        for idx, headline in enumerate(headlines[:10], 1):
+            print(f"{idx}. {headline}")
+        save_to_csv(headlines)
+        print("Headlines saved to headlines.csv")
+    else:
+        print("No headlines found.")
