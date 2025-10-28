@@ -39,6 +39,6 @@ pip install -r requirements.txt
 - To open this combat simulator, simply type these commands in the command line
 
 ```bash
-cd regenpalkar28-combat-simulator
+cd src\regenpalkar28-combat-simulator
 Combat.py
 ```
