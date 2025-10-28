@@ -40,5 +40,5 @@ pip install -r requirements.txt
 
 ```bash
 cd src\regenpalkar28-combat-simulator
-Combat.py
+python Combat.py
 ```
