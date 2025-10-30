@@ -1,0 +1,2 @@
+# No external requirements for this beginner-friendly project.
+# If you add dependencies later, list them here (one per line).
