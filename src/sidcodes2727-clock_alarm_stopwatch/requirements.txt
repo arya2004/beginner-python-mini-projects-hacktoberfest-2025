@@ -1,0 +1,6 @@
+# Digital Time Utility - Requirements
+# No external packages are required since the program uses only built-in Python modules.
+
+# Built-in modules
+os
+time
