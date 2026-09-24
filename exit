@@ -1,0 +1,527 @@
+[33mcommit 7ee3e8a6e3e7086ed58ca94f728999037beb3e26[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mproject/new-cli[m[33m)[m
+Author: wodopeyj <wodopeyj@gmail.com>
+Date:   Thu Sep 24 13:03:32 2026 -0700
+
+    main_function is implemented
+
+[33mcommit c2cb24cd45971e46257831252a81d7544cba641f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32magents/simplify-code-file-to-80-lines[m[33m)[m
+Merge: ab31c0d 87cbe25
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Jun 9 09:18:43 2026 +0530
+
+    Merge pull request #213 from abdelrahmanaljaloudy-arch/news-web-scraper
+    
+    Add news web scraper projectAdd News Web Scraper - Issue #25
+
+[33mcommit ab31c0dcceb7756838ad1e38c331f34cc5e43fa3[m
+Merge: ce670ab 5194276
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Jun 9 09:18:34 2026 +0530
+
+    Merge pull request #212 from abdelrahmanaljaloudy-arch/expense-tracker-cli
+    
+    Expense tracker cliAdd Expense Tracker CLI - Issue #23
+
+[33mcommit ce670abd2800bedbc871b616ac62c03d6d914207[m
+Merge: 7616f32 fbc4933
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Jun 9 09:18:18 2026 +0530
+
+    Merge pull request #211 from abdelrahmanaljaloudy-arch/binary-to-decimal-converter
+    
+    Add Binary to Decimal Converter - Issue #17
+
+[33mcommit 87cbe25f42605b6775a20024cc75a03611ee1007[m
+Author: abdelrahmanaljaloudy <abdelrahmanaljaloudi@gmail.com>
+Date:   Sun Apr 19 17:33:03 2026 +0200
+
+    Add news web scraper project
+
+[33mcommit 5194276a3db6409a570d2870d1bc94694009cc04[m
+Author: abdelrahmanaljaloudy <abdelrahmanaljaloudi@gmail.com>
+Date:   Sun Apr 19 17:03:28 2026 +0200
+
+    Add expense tracker CLI project
+
+[33mcommit fbc49332644ede230e38070c004dda9ca64d77df[m
+Author: abdelrahmanaljaloudy <abdelrahmanaljaloudi@gmail.com>
+Date:   Sun Apr 19 15:24:39 2026 +0200
+
+    Add binary to decimal converter project
+
+[33mcommit 7616f32d73be014cb8764188c9f879fca24d135a[m
+Merge: 3f2b423 db9eb7c
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Sat Feb 28 22:29:18 2026 +0530
+
+    Merge pull request #209 from iamsarvrath/main
+    
+    Add binary to decimal converter in Python
+
+[33mcommit 3f2b4232218bb5647b0a41fedb9f2502d59a0dd7[m
+Merge: 74f430a 2a698a4
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Sat Feb 28 22:28:53 2026 +0530
+
+    Merge pull request #210 from q13124/main
+    
+    feat: Add simple notes app with file storage
+
+[33mcommit 2a698a496eaddec9c940fb13bf709aaeb896eee6[m
+Author: Gitcoin Bounty Hunter <501843826@qq.com>
+Date:   Sun Feb 22 16:28:07 2026 +0800
+
+    feat: Add simple notes app with file storage
+    
+    - Complete CRUD operations
+    - File storage with JSON format
+    - Search functionality with tags
+    - Archive feature
+    - Export to JSON/TXT
+    - 10 unit tests with 100% pass rate
+    - Documentation and usage examples
+    
+    Closes #13
+
+[33mcommit db9eb7c4f63ffc1c7f8e0dd299c6f7e96ee42215[m
+Author: SARVESH RATHOD <official.sarvesh.rathod@gmail.com>
+Date:   Wed Dec 24 13:19:37 2025 +0530
+
+    Add binary to decimal converter in Python
+
+[33mcommit 74f430a15febcedfa47a8af696103e025a8bec32[m
+Merge: c709301 b69a8be
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Thu Nov 13 16:59:14 2025 +0530
+
+    Merge pull request #207 from shudhodhan1089/main
+    
+    Finally made working flappy bird game
+
+[33mcommit c7093017198eb0cf69d130742ca81ab56c510937[m
+Merge: e1381a4 9cf5290
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Thu Nov 13 16:59:08 2025 +0530
+
+    Merge pull request #206 from sidcodes2727/main
+    
+    Added sidcodes2727-clock-alarm-stopwatch mini project
+
+[33mcommit e1381a4aee23cdc7356bfba26129f974953f6b24[m
+Merge: 4e4976c 5c6dbb1
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Thu Nov 13 16:58:59 2025 +0530
+
+    Merge pull request #205 from AishVerse/heart
+    
+    Heart Disease Risk Analysis and Visualization Project in Python
+
+[33mcommit b69a8bece94edc147bfef08cd66cc04f5b8d5c3f[m
+Author: shudhodhan1089 <shudhodhanj2004@gmail.com>
+Date:   Wed Nov 12 22:57:32 2025 +0530
+
+    Finally made working flappy bird game
+
+[33mcommit 9cf529067581e16f452fe0de8b3d03b1f431709d[m
+Author: Siddhant <siddhantjssalunke@gmail.com>
+Date:   Wed Nov 12 19:59:36 2025 +0530
+
+    Added sidcodes2727-clock-alarm-stopwatch mini project
+
+[33mcommit 5c6dbb142be0e7c70dc8901e9ae225094c3811f7[m
+Author: Aishwarya Jadhav <aishwaryajadhav1502@gmail.com>
+Date:   Wed Nov 12 12:00:22 2025 +0530
+
+    Heart Disease Risk Analysis and Visualization Project in Python
+
+[33mcommit 4e4976cf99311f16823ecb66174705f38d7a566e[m
+Merge: 65192d0 f656f6b
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Fri Oct 31 21:28:54 2025 +0530
+
+    Merge pull request #202 from pulkittrillion/main
+    
+    Add: Billsaathi - Smart Indian Tip Calculator with BTOL
+
+[33mcommit f656f6bc17d2df05bdb83122a2e0facd22a0ac50[m
+Author: pulkittillion <silentobserver@duck.com>
+Date:   Fri Oct 31 14:35:15 2025 +0000
+
+    Add PuneLocal - Auto Rickshaw Fare Estimator
+
+[33mcommit c3d08b7030fe21fb0f23a92d79dc92ba63e7d977[m
+Author: pulkittillion <silentobserver@duck.com>
+Date:   Fri Oct 31 14:25:11 2025 +0000
+
+    Add: Billsaathi - Smart Indian Tip Calculator with BTOL
+
+[33mcommit 65192d0443a9aadb461f2c5d94b90a675fd45e0f[m
+Merge: 12e72c1 cbce525
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Fri Oct 31 08:01:41 2025 +0530
+
+    Merge pull request #201 from kavaljeetsingh-dev/main
+    
+    add: simple Pomodoro Timer for- Hacktoberfest2025
+
+[33mcommit 12e72c1026f5f1582a1ef59ba32774a1649245d1[m
+Merge: 4ac0634 ccc9fcf
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Fri Oct 31 08:01:32 2025 +0530
+
+    Merge pull request #200 from ShreyDudie/pomodoro
+    
+    pomodoro timer
+
+[33mcommit cbce5253614c4d7da9aa1e9840a96818c9192cf7[m
+Author: Kavaljeet Singh <kavaljeetsingh.dev@gmail.com>
+Date:   Fri Oct 31 00:59:52 2025 +0530
+
+    add: simple Pomodoro Timer for- Hacktoberfest2025
+
+[33mcommit ccc9fcf0d8344f72d9aa5f8fee128824f7d6859c[m
+Author: ShreyDudie <shreyaskulkarni1604@gmail.com>
+Date:   Fri Oct 31 00:24:56 2025 +0530
+
+    pomodoro timer
+
+[33mcommit 4ac06340e02609bccdc1c1a4a1313a184dca4915[m
+Merge: 54b203a d64a7a1
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Thu Oct 30 19:06:34 2025 +0530
+
+    Merge pull request #199 from sapekshpareek/main
+    
+    sapekshpareek Binary to Decimal Convertor
+
+[33mcommit 54b203acd017cbc8e84f50f8280f8faf6b64b11e[m
+Merge: c473c4f 84633a1
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Thu Oct 30 19:06:25 2025 +0530
+
+    Merge pull request #198 from TheInfernitex/main
+    
+    Add sorting visualizer project
+
+[33mcommit 84633a116e3cf6d8882a02112afa48d3ee7863cb[m
+Author: TheInfernitex <agarwalparthsplendid@gmail.com>
+Date:   Thu Oct 30 18:50:58 2025 +0530
+
+    add sorting visualizer project
+
+[33mcommit d64a7a13df2c91dcd07fc18ebd8169137ad99f4a[m
+Author: Sapeksh Pareek <sapekshpareek136@gmail.com>
+Date:   Thu Oct 30 18:44:34 2025 +0530
+
+    sapekshpareek Binary to Decimal Convertor
+
+[33mcommit c473c4fb0641555df61979f206c4699492c55527[m
+Merge: 0333764 47ee3b8
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Thu Oct 30 17:05:13 2025 +0530
+
+    Merge pull request #197 from muskaankarwa/game2
+    
+    Word Guessing Game
+
+[33mcommit 47ee3b8c3ce7c781451c5096f844bb79a17cb3a1[m
+Author: Muskaan <muskaankarwa@gmail.com>
+Date:   Thu Oct 30 16:27:50 2025 +0530
+
+    Word Guessing Game
+    
+    The Word Guessing Game challenges the player to guess a hidden word one letter at a time within limited attempts.
+    Each correct guess reveals letters, while wrong guesses reduce the remaining chances.
+
+[33mcommit 0333764b429cb780a5613330e96cdf5f27b13706[m
+Merge: e21a23b 9dfb799
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Thu Oct 30 15:02:44 2025 +0530
+
+    Merge pull request #196 from TheInfernitex/main
+    
+    add dijkstra algorithm visualizer project
+
+[33mcommit e21a23b8e6a94eb01ba6db76f41f7e5bd32d2d42[m
+Merge: c2dec75 21a8d6d
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Thu Oct 30 15:02:37 2025 +0530
+
+    Merge pull request #194 from sebastianlinloveslebronjames/main
+    
+    Created sebastian_guessing_game.py sebastian lin
+
+[33mcommit 9dfb799a56870e8a6ca20f580028bcdd7f205ca9[m
+Author: TheInfernitex <agarwalparthsplendid@gmail.com>
+Date:   Thu Oct 30 14:54:56 2025 +0530
+
+    add dijkstra algorithm visualizer project
+
+[33mcommit 21a8d6dc25bb2ef4b239c79a7ea77a6a45eb9e25[m
+Author: sebastianlinloveslebronjames <sebastianlinloveslebronjames@outlook.com>
+Date:   Thu Oct 30 00:56:10 2025 -0700
+
+    Create sebastian_guessing_game.py
+
+[33mcommit c2dec7599b6bdb9a5c08c68af2b1a28f383b114b[m
+Merge: eb5105e 8faf582
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Wed Oct 29 09:08:40 2025 +0530
+
+    Merge pull request #192 from kaboombastic/main
+    
+    Add tic.tac.toe
+
+[33mcommit 8faf582921060d2993724312847c2e7b739ad039[m
+Merge: f92c908 eb5105e
+Author: kaboombastic <239594961+kaboombastic@users.noreply.github.com>
+Date:   Wed Oct 29 03:10:43 2025 +0800
+
+    Merge pull request #1 from arya2004/main
+    
+    Add tic.tac.toe
+
+[33mcommit f92c908e2dd82a799df4b520974b4f4dd5b758e0[m
+Author: Kaboombastic <239594961+kaboombastic@users.noreply.github.com>
+Date:   Wed Oct 29 03:01:13 2025 +0800
+
+    Add tic.tac.toe
+
+[33mcommit eb5105e44db783a834323adc63f998835d2d2ec8[m
+Merge: d72e66b 82072b3
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Wed Oct 29 00:13:48 2025 +0530
+
+    Merge pull request #190 from VedWay/main
+    
+    VedWay-Daily Tracker-CLI
+
+[33mcommit d72e66b8bac838374cf966e6ec32cb02a9c43c12[m
+Merge: 1913e2e 8198348
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Wed Oct 29 00:13:26 2025 +0530
+
+    Merge pull request #191 from regenpalkar28/Combat
+    
+    Added Combat Simulator Mini Project
+
+[33mcommit 81983488ac619e2183f8b70fb1ad9b7f7d2df0ba[m
+Author: regenpalkar28 <regenrahuleenapalkar@gmail.com>
+Date:   Tue Oct 28 23:50:02 2025 +0530
+
+    Added Combat Simulator MiniProject
+
+[33mcommit 9fd9b1cb4800140c42639a51d27a0833b90f934d[m
+Author: regenpalkar28 <regenrahuleenapalkar@gmail.com>
+Date:   Tue Oct 28 23:48:01 2025 +0530
+
+    Made changes to readme
+
+[33mcommit 8cc18820092a9dcab58f73396927f7a2a5f4b863[m
+Author: regenpalkar28 <regenrahuleenapalkar@gmail.com>
+Date:   Tue Oct 28 23:47:03 2025 +0530
+
+    Added Combat Simulator MiniProject
+
+[33mcommit 82072b3f6224721f88be5bcd79ad9e15487baafa[m
+Author: Vedant Shimpi <vedantshimpi@Vedants-MacBook-Air.local>
+Date:   Tue Oct 28 23:40:14 2025 +0530
+
+    Daily Tracker-CLI
+
+[33mcommit 95b2446c0101f28f8b151161b4c62e269f566611[m
+Author: regenpalkar28 <regenrahuleenapalkar@gmail.com>
+Date:   Tue Oct 28 23:36:28 2025 +0530
+
+    Added Combat Simulator Mini Project
+
+[33mcommit 1913e2e312c9e2149f06985c8d599f24f67093a5[m
+Merge: d350bf0 b3e8805
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 22:02:15 2025 +0530
+
+    Merge pull request #188 from Satya2234/patch-1
+    
+    Create guess_the_number.py
+
+[33mcommit d350bf0e1cdcac8cf9aed1fe6abf1d526d906206[m
+Merge: c3b9d9b e5676e0
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 22:02:06 2025 +0530
+
+    Merge pull request #187 from Priyanshjain10/main
+    
+    Add professional news headline web scraper (Python, CSV output, README) for Hacktoberfest
+
+[33mcommit c3b9d9bbed7782bd7e0933434a6bd91164aa57fa[m
+Merge: f264294 bd78e1c
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 22:01:57 2025 +0530
+
+    Merge pull request #189 from SDash05/main
+    
+    Added a pomodoro timer using python
+
+[33mcommit bd78e1cddeb690ae66fb6a23646795b51c453cd9[m
+Author: SDash05 <146794677+SDash05@users.noreply.github.com>
+Date:   Tue Oct 28 21:40:08 2025 +0530
+
+    Added a pomodoro timer
+    
+    This timer is used using python and imported time library and this shows time of session and once completed it gives either long or short break
+
+[33mcommit b3e88052193f10fa5b1b4bafd81a0172d434a0e8[m
+Author: Satyajit Barik <75263555+Satya2234@users.noreply.github.com>
+Date:   Tue Oct 28 21:13:03 2025 +0530
+
+    Create guess_the_number.py
+    
+    # 🎯 Guess the Number Game
+    A simple Python game where you try to guess the correct number.
+    
+    ## Run it
+    python3 guess_the_number.py
+    
+    
+    🎮 Welcome to the Guess the Number Game!
+    I'm thinking of a number between 1 and 100...
+    👉 Enter your guess: 50
+    📈 Too high! Try again.
+    ...
+    🎉 Correct! The number was 37.
+
+[33mcommit e5676e0ff4f9079d94c78ffc0904db789b6db0cf[m
+Author: Priyanshjain10 <Priyanshj1304@gmail.com>
+Date:   Tue Oct 28 18:38:04 2025 +0530
+
+    Create README.md
+
+[33mcommit 12ba2eceb831916484f313f7e64fa1ab3892de43[m
+Author: Priyanshjain10 <Priyanshj1304@gmail.com>
+Date:   Tue Oct 28 18:30:46 2025 +0530
+
+    Add requirements.txt for dependencies
+
+[33mcommit df2ef14f8c9fff5e070772d8c64cde7582b279e1[m
+Author: Priyanshjain10 <Priyanshj1304@gmail.com>
+Date:   Tue Oct 28 18:27:08 2025 +0530
+
+    Create Add robust news headlines web scraper (Python, CSV export, error handling, best practices)
+
+[33mcommit f26429406da446bab8ff85f070f1f6b691fc0d4f[m
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 16:54:21 2025 +0530
+
+    Remove obsolete .DS_Store file
+    
+    Signed-off-by: Arya Pathak <arya20j4@gmail.com>
+
+[33mcommit 8388d25746daa656962d51c451564dfa9553a58e[m
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 16:52:49 2025 +0530
+
+     Clean up the repository by removing obsolete files and directories.
+    
+    Signed-off-by: Arya Pathak <arya20j4@gmail.com>
+
+[33mcommit 327e13e315b62e58e7a5ad886e138910afb86999[m
+Merge: b5b0208 a779323
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 16:43:36 2025 +0530
+
+    Merge pull request #186 from regenpalkar28/Caesar
+    
+    Added Custom Rotational Cipher Tool
+
+[33mcommit b5b0208cfd8a79ff8d06d7215d4fd03b8aea4c6c[m
+Merge: 2fd2ef0 9624bf4
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 16:43:29 2025 +0530
+
+    Merge pull request #185 from muskaankarwa/game
+    
+    Game
+
+[33mcommit 9624bf41edc089f41d3ee75b8589298aff56e2ce[m
+Author: Muskaan <muskaankarwa@gmail.com>
+Date:   Tue Oct 28 15:45:30 2025 +0530
+
+    Add files via upload
+
+[33mcommit a779323d5db356c7eafb897d4a1d138e3317a615[m
+Author: regenpalkar28 <regenrahuleenapalkar@gmail.com>
+Date:   Tue Oct 28 15:39:13 2025 +0530
+
+    Added Custom Rotational Cipher Tool
+
+[33mcommit fedf27a17c08ee420c3d96081bcd39fb89bcb8d9[m
+Author: muskaankarwa <muskaankarwa@gmail.com>
+Date:   Tue Oct 28 15:08:31 2025 +0530
+
+    Create muskaankarwa-wordscramble
+
+[33mcommit 2fd2ef08eff1d48ef16d5a672cd474bde40bf141[m
+Merge: ce4576a f307b01
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 12:46:18 2025 +0530
+
+    Merge pull request #179 from minalprasad08/minalprasad08-patch-3
+    
+    Add Positive Vibes Generator by Minal Prasad
+
+[33mcommit ce4576a38c1f2287a167e8a56676d551f9e7a769[m
+Merge: f8d8f60 61166f3
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 12:45:46 2025 +0530
+
+    Merge pull request #182 from tmvalijib24/valiji
+    
+    Added Project Habit Tracker
+
+[33mcommit f8d8f6022f6b8e1c05353db36e6293aaa189dd1a[m
+Merge: 46d3894 7a5f892
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 12:45:42 2025 +0530
+
+    Merge pull request #180 from tmvalijib24/taha
+    
+    Added Matrix Rain Animation Project
+
+[33mcommit 46d3894a8dbecf31d09a164a953ee211320e7419[m
+Merge: 5eaecf5 54cfdcb
+Author: Arya Pathak <arya20j4@gmail.com>
+Date:   Tue Oct 28 12:45:31 2025 +0530
+
+    Merge pull request #181 from tmvalijib24/valtaha
+    
+    Added Simple Expense Manager Project
+
+[33mcommit 54cfdcbb473fe671c69aeb74f0d006d779cfdfe5[m
+Author: tmvalijib24 <tmvaliji_b24@it.vjti.ac.in>
+Date:   Tue Oct 28 12:44:13 2025 +0530
+
+    changed the name of my src folder
+
+[33mcommit 61166f3be9b4fcc556d97e565f249916ca1d0df5[m
+Author: tmvalijib24 <tmvaliji_b24@it.vjti.ac.in>
+Date:   Tue Oct 28 12:30:33 2025 +0530
+
+    Added Project Habit Tracker
+
+[33mcommit 652ce75a1126a16e5a017286b061c00b48768314[m
+Author: tmvalijib24 <tmvaliji_b24@it.vjti.ac.in>
+Date:   Tue Oct 28 12:21:37 2025 +0530
+
+    Added readme file
+
+[33mcommit 31c2b478f3cfc8edc086f03336a8c821367c1ec4[m
+Author: tmvalijib24 <tmvaliji_b24@it.vjti.ac.in>
+Date:   Tue Oct 28 12:17:07 2025 +0530
+
+    Added Project Simple Expense Manager
+
+[33mcommit 7a5f892d014a193d0fde8c5d551b4b10b2f01898[m
+Author: tmvalijib24 <tmvaliji_b24@it.vjti.ac.in>
+Date:   Tue Oct 28 12:07:11 2025 +0530
+
+    Added Matrix Rain Animation
