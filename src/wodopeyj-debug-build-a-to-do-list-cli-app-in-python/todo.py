@@ -46,7 +46,13 @@ def pick_task(tasks, prompt):
 
 
 def mark_done(tasks):
-   pass
+    index = pick_task(tasks, "Task number to mark done: ")
+    if index is None:
+        return
+    tasks[index]["done"] = True
+    save_tasks(tasks)
+    print("Marked complete.")
+
 
 
 def delete_task(tasks):
