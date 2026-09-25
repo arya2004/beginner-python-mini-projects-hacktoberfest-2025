@@ -22,7 +22,13 @@ def save_tasks(tasks):
 
 
 def show_tasks(tasks):
-   pass
+    if not tasks:
+        print("\nNo tasks yet. Add one!")
+        return
+    print("\nYour tasks:")
+    for i, task in enumerate(tasks, 1):
+        status = "✓" if task.get("done") else "○"
+        print(f"{i}. {status} {task['title']} ({task.get('tag', 'general')})")
 
 def add_task(tasks):
     title = input("Task: ").strip()
