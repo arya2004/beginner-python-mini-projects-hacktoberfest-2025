@@ -18,7 +18,8 @@ def load_tasks():
 
 
 def save_tasks(tasks):
-    pass
+    with DATA_FILE.open("w", encoding="utf-8") as file:
+        json.dump(tasks, file, indent=2)
 
 
 def show_tasks(tasks):
@@ -42,32 +43,20 @@ def add_task(tasks):
 
 
 def pick_task(tasks, prompt):
-    if not tasks:
-        print("No tasks available.")
-        return None
-    try:
-        index = int(input(prompt)) - 1
-    except ValueError:
-        print("Invalid number.")
-        return None
-    if 0 <= index < len(tasks):
-        return index
-    print("Task number out of range.")
-    return None
+    pass
 
 
 def mark_done(tasks):
-    index = pick_task(tasks, "Task number to mark done: ")
-    if index is None:
-        return
-    tasks[index]["done"] = True
-    save_tasks(tasks)
-    print("Marked complete.")
-
+   pass
 
 
 def delete_task(tasks):
-   pass
+   index = pick_task(tasks, "Task number to delete: ")
+    if index is None:
+        return
+    removed = tasks.pop(index)
+    save_tasks(tasks)
+    print(f"Removed: {removed['title']}")
 
 
 def main():
