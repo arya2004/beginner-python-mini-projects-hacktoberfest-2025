@@ -42,7 +42,18 @@ def add_task(tasks):
 
 
 def pick_task(tasks, prompt):
-    pass
+    if not tasks:
+        print("No tasks available.")
+        return None
+    try:
+        index = int(input(prompt)) - 1
+    except ValueError:
+        print("Invalid number.")
+        return None
+    if 0 <= index < len(tasks):
+        return index
+    print("Task number out of range.")
+    return None
 
 
 def mark_done(tasks):
