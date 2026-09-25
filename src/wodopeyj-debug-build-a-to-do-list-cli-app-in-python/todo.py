@@ -1,5 +1,6 @@
 """Simple task manager with a clean CLI."""
 
+from asyncio import tasks
 import json
 from pathlib import Path
 
@@ -43,7 +44,18 @@ def add_task(tasks):
 
 
 def pick_task(tasks, prompt):
-    pass
+    if not tasks:
+        print("No tasks available.")
+        return None
+    try:
+        index = int(input(prompt)) - 1
+    except ValueError:
+        print("Invalid number.")
+        return None
+    if 0 <= index < len(tasks):
+        return index
+    print("Task number out of range.")
+    return None
 
 
 def mark_done(tasks):
@@ -51,7 +63,7 @@ def mark_done(tasks):
 
 
 def delete_task(tasks):
-   index = pick_task(tasks, "Task number to delete: ")
+    index = pick_task(tasks, "Task number to delete: ")
     if index is None:
         return
     removed = tasks.pop(index)
